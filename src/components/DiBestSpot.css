@@ -1,0 +1,25 @@
+.buttonCont {
+    width: 100%;
+    height: 185px;
+    padding: 49px 7px 7px 8px;
+    justify-content: flex-end;
+    align-items: center;
+    flex-shrink: 0;
+    background: #28285B;
+}
+
+.btnFather {
+    display: flex;
+    justify-content: center;
+    /* flex-direction: row; */
+}
+
+@media (max-width:600px) {
+    .btnFather {
+        display: block;
+    }
+
+    .buttonCont {
+        height: 35vh;
+    }
+}
