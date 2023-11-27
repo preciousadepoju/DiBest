@@ -1,5 +1,6 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Transition } from '@headlessui/react';
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -8,7 +9,6 @@ const Navbar = () => {
   const toggleMenu = () => {
     setIsOpen(!isOpen);
 
-    // Close the menu after a second click
     if (isOpen) {
       setTimeout(() => {
         setIsOpen(false);
@@ -24,12 +24,12 @@ const Navbar = () => {
 
         {/* Navbar Links (Hidden on Small Screens) */}
         <div className="hidden md:flex space-x-4">
-          <a href="#" className="hover:text-gray-300">Home</a>
-          <a href="#" className="hover:text-gray-300">Features</a>
-          <a href="#" className="hover:text-gray-300">Pricing</a>
-          <a href="#" className="hover:text-gray-300">About</a>
-          <a href="#" className="hover:text-gray-300">Platform Vendors</a>
-          <a href="#" className="hover:text-gray-300">Contact Us</a>
+          <Link to="/" className="hover:text-gray-300">Home</Link>
+          <Link to="/features" className="hover:text-gray-300">Features</Link>
+          <Link to="/pricing" className="hover:text-gray-300">Pricing</Link>
+          <Link to="/about" className="hover:text-gray-300">About</Link>
+          <Link to="/platform" className="hover:text-gray-300">Platform Vendors</Link>
+          <Link to="/contact" className="hover:text-gray-300">Contact Us</Link>
         </div>
 
         {/* Small Screen Menu Button */}
@@ -54,12 +54,12 @@ const Navbar = () => {
         >
           <div className="md:hidden absolute top-0 left-0 w-full h-full bg-gray-800 bg-opacity-80">
             <div className="flex flex-col items-center p-8 space-y-4">
-              <a to="/" className="text-xl hover:text-gray-300">Home</a>
-              <a href="/Features.jsx" className="text-xl hover:text-gray-300">Features</a>
-              <a href="#" className="text-xl hover:text-gray-300">Pricing</a>
-              <a href="#" className="text-xl hover:text-gray-300">About</a>
-              <a href="#" className="text-xl hover:text-gray-300">Platform Vendors</a>
-              <a href="#" className="text-xl hover:text-gray-300">Contact Us</a>
+              <a href="#home" className="text-xl hover:text-gray-300">Home</a>
+              <a href="#features" className="text-xl hover:text-gray-300">Features</a>
+              <a href="#pricing" className="text-xl hover:text-gray-300">Pricing</a>
+              <a href="#about" className="text-xl hover:text-gray-300">About</a>
+              <a href="#platform" className="text-xl hover:text-gray-300">Platform Vendors</a>
+              <a href="#contact" className="text-xl hover:text-gray-300">Contact Us</a>
             </div>
           </div>
         </Transition>
@@ -84,6 +84,7 @@ const Navbar = () => {
         </div>
       </nav>
     </div>
+
   );
 };
 

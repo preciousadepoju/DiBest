@@ -36,6 +36,7 @@
     align-items: center;
     gap: 10px;
     flex-shrink: 0;
+    color:white;
     border-radius: 5px;
     background: #28285B;
     margin-top: 5px;
