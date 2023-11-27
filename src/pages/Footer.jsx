@@ -8,28 +8,28 @@ const Footer = () => {
             <div className="footer bg-gray-100">
                     <ul className='mx-8'>
                         <li className='head font-bold'><a href="#">Company</a></li>
-                        <li><a href="#">Blog</a></li>
-                        <li><a href="#">Pricing</a></li>
-                        <li><a href="#">Support</a></li>
-                        <li><a href="#">Contact</a></li>
-                        <li><a href="#">About</a></li>
+                        <li><a href="#" className='my-4'>Blog</a></li>
+                        <li><a href="#" className='my-4'>Pricing</a></li>
+                        <li><a href="#" className='my-4'>Support</a></li>
+                        <li><a href="#" className='my-4'>Contact</a></li>
+                        <li><a href="#" className='my-4'>About</a></li>
 
                     </ul>
                     <ul className='ms-8'>
                         <li className='head font-bold'><a href="#">Features </a></li>
-                        <li><a href="#">Restaurant</a></li>
-                        <li><a href="#">OnDemand Services</a></li>
-                        <li><a href="#">Property Rental</a></li>
-                        <li><a href="#">Ecommece</a></li>
-                        <li><a href="#">Carribean Region</a></li>
-                        <li><a href="#">Ewallet</a></li>
-                        <li><a href="#">Egift</a></li>
+                        <li><a href="#" className='my-4'>Restaurant</a></li>
+                        <li><a href="#" className='my-4'>OnDemand Services</a></li>
+                        <li><a href="#" className='my-4'>Property Rental</a></li>
+                        <li><a href="#" className='my-4'>Ecommece</a></li>
+                        <li><a href="#" className='my-4'>Carribean Region</a></li>
+                        <li><a href="#" className='my-4'>Ewallet</a></li>
+                        <li><a href="#" className='my-4'>Egift</a></li>
                     </ul>
                     <ul className='mx-8'>
                         <li className='head font-bold'><a href="#">Links</a></li>
-                        <li><a href="#">Privacy</a></li>
-                        <li><a href="#">Licenses</a></li>
-                        <li><a href="#">Terms</a></li>
+                        <li><a href="#" className='my-4'>Privacy</a></li>
+                        <li><a href="#" className='my-4'>Licenses</a></li>
+                        <li><a href="#" className='my-4'>Terms</a></li>
                     </ul>
 
                     <div className='signup'>

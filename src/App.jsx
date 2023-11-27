@@ -7,13 +7,21 @@ import Pricing from './pages/Pricing'
 import About from './pages/About'
 import Contact from './pages/Contact'
 import Footer from './pages/Footer'
+import {Route, Routes} from 'react-router-dom'
 
 function App() {
 
   return (
     <>
+    <Routes>
+      <Route path='/' element={<Home/>}/>
+      <Route path='/features' element={<Features/>}/>
+      <Route path='/pricing' element={<Pricing/>}/>
+      <Route path='/about' element={<About/>}/>
+
+    </Routes>
       <Navbar/>
-      <Home/>
+      {/* <Home/> */}
       <Features/>
       <Pricing/>
       <Contact/>

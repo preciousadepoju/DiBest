@@ -62,7 +62,7 @@ line-height: normal;
 }
 
 
-@media (max-width: 600px) {
+@media (max-width: 800px) {
     .joinDB {
         height: auto;
         margin-top: 5%;
@@ -92,6 +92,7 @@ line-height: normal;
     .welcome {
         font-size:1.5em;
         margin-left: -30%;
+        margin-top: -20%;
     }
 
     .explore {
@@ -104,9 +105,9 @@ line-height: normal;
     }
 
     .whydibest {
-        margin-left: 2%;
+        margin-left: 3%;
         width: 400px;
-        margin-top: -40%;
+        margin-top: -52%;
         display: block;
     }
     .whyText {

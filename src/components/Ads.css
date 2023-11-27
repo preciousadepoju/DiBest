@@ -1,0 +1,21 @@
+.adHead {
+    display: flex;
+}
+.ads{
+    padding-left: 20%;
+    justify-content: center;
+}
+.adHead1 {
+    display: flex;
+    margin-top: 5%;
+}
+.adBlack {
+    background-color: black;
+    width: 20%;
+    height: 15vh;
+}
+.adWhite {
+    background-color: rgb(243, 243, 243);
+    width: 20%;
+    height: 15vh;
+}
