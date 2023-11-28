@@ -1,0 +1,29 @@
+.pricingcard {
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    -webkit-clip-path: circle(68.7% at 49% 31%);
+    clip-path: circle(68.7% at 49% 31%);
+    width: 300px;
+    height: 400px;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+}
+
+.cardText1 {
+    text-align:left;
+}
+
+@media (max-width:800px) {
+    .pricingcard {
+        display: block;
+    }
+    .card {
+        margin-left:14%;
+    }
+}

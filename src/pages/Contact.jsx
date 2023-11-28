@@ -1,6 +1,7 @@
 import React from 'react'
 import './Contact.css'
 import Ads from '../components/Ads'
+import Chatbox from '../components/Chatbox'
 
 const Contact = () => {
   return (
