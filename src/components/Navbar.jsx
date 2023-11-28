@@ -28,7 +28,7 @@ const Navbar = () => {
           <Link to="/features" className="hover:text-gray-300">Features</Link>
           <Link to="/pricing" className="hover:text-gray-300">Pricing</Link>
           <Link to="/about" className="hover:text-gray-300">About</Link>
-          <Link to="/platform" className="hover:text-gray-300">Platform Vendors</Link>
+          <Link to="" className="hover:text-gray-300"><a href="/src/pages/PlatformVendor.jsx">Platform Vendors</a></Link>
           <Link to="/contact" className="hover:text-gray-300">Contact Us</Link>
         </div>
 
