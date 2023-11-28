@@ -2,4 +2,7 @@
     .imges {
         width: 100%;
     }
+    .carousel {
+        margin-top: -10%;
+    }
 }

@@ -9,7 +9,7 @@ const DiBestSpot = () => {
       <div className='buttonCont'>
 
         <center>
-          <div className="text-xl text-white font-semibold">DiBest Spot Marketplaces</div>
+          <div className="text-3xl text-white font-semibold">DiBest Spot Marketplaces</div>
           <div className='btnFather mt-3  '>
             <button type="button" class=" focus:outline-none text-white bg-[#F6A913] hover:bg-yellow-600 focus:ring-yellow-300 font-medium text-sm px-5 py-2 h-10 mt-1.5 ms-2  " style={{ width: '40%' }}><a href='#'>Restaurants </a></button>
             <button type="button" class=" focus:outline-none text-white bg-[#0C8BE8] hover:bg-yellow-600 focus:ring-yellow-300 font-medium text-sm px-3 py-2 h-12 mt-1 ms-2 " style={{ width: '40%' }}><a href='#'>OnDemand Services</a></button>

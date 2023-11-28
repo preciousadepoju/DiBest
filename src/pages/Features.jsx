@@ -12,7 +12,7 @@ const Features = () => {
                 </center>
 
                 <div className='featureCard'>
-                <div className="max-w-sm p-6 bg-white  rounded-lg shadow-lg text-xl">
+                <div className="max-w-sm p-6 bg-white  rounded-lg shadow-lg text-xl cardy">
                     <div style={{display:'flex', gap:'5px'}}>
                     <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40" fill="none">
   <path d="M36.3167 34.6L35.1167 33.4C35.7334 32.4667 36.1 31.3333 36.1 30.1333C36.1 26.8333 33.4334 24.1667 30.1334 24.1667C26.8334 24.1667 24.1667 26.8333 24.1667 30.1333C24.1667 33.4333 26.8334 36.1 30.1334 36.1C31.35 36.1 32.4667 35.7333 33.4 35.1167L34.6 36.3167C34.8334 36.55 35.15 36.6667 35.45 36.6667C35.7667 36.6667 36.0667 36.55 36.3 36.3167C36.7834 35.8333 36.7834 35.0667 36.3167 34.6Z" fill="#28285B"/>
@@ -29,7 +29,7 @@ const Features = () => {
                     </div>
                     <p className="mb-3 font-normal font-bold text-gray-800 dark:text-gray-800" style={{textAlign:'left'}}>Explore a variety of marketplaces all in one place – from finding exclusive deals on restaurants to participating in thrilling auctions.</p>
                 </div>
-                <div className="max-w-sm p-6 bg-white  rounded-lg  shadow-lg text-xl">
+                <div className="max-w-sm p-6 bg-white  rounded-lg  shadow-lg text-xl cardy">
                     <div style={{display:'flex', gap:'5px'}}>
                     <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40" fill="none">
   <path d="M12.75 34.85C12.7 34.85 12.6333 34.8833 12.5833 34.8833C9.35001 33.2833 6.71667 30.6333 5.10001 27.4C5.10001 27.35 5.13334 27.2833 5.13334 27.2333C7.16667 27.8333 9.26667 28.2833 11.35 28.6333C11.7167 30.7333 12.15 32.8167 12.75 34.85Z" fill="#28285B"/>
@@ -49,7 +49,7 @@ const Features = () => {
                 </div>
 
                 <center>
-                <div className="max-w-sm p-6 bg-white  rounded-lg  shadow-lg text-lg">
+                <div className="max-w-sm p-6 bg-white  rounded-lg  shadow-lg text-lg cardy">
                     <div style={{display:'flex', gap:'5px'}}>
                     <svg xmlns="http://www.w3.org/2000/svg" width="40" height="35" viewBox="0 0 40 35" fill="none">
   <path d="M27.0833 32.1429C28.6942 32.1429 30 31.0236 30 29.6429C30 28.2622 28.6942 27.1429 27.0833 27.1429C25.4725 27.1429 24.1667 28.2622 24.1667 29.6429C24.1667 31.0236 25.4725 32.1429 27.0833 32.1429Z" fill="#28285B"/>
@@ -64,7 +64,7 @@ const Features = () => {
                 </center>
 
                 <div className='featureCard'>
-                <div className="max-w-sm p-6 bg-white  rounded-lg shadow-lg text-lg">
+                <div className="max-w-sm p-6 bg-white  rounded-lg shadow-lg text-lg cardy">
                     <div style={{display:'flex', gap:'5px'}}>
                     <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40" fill="none">
   <path d="M31.35 10.4167H33.6166C33.3 9.9667 32.9666 9.55003 32.6166 9.13336L31.35 10.4167Z" fill="#28285B"/>

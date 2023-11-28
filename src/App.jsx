@@ -23,12 +23,12 @@ function App() {
     </Routes>
       <Navbar/>
       {/* <Home/> */}
-      <Features/>
-      <Pricing/>
-      <Contact/>
-      <About/>
-      <PlatformVendor/>
-      <Footer/>
+      {/* <Features/> */}
+      {/* <Pricing/> */}
+      {/* <Contact/> */}
+      {/* <About/> */}
+      {/* <PlatformVendor/> */}
+      {/* <Footer/> */}
     </>
   )
 }

@@ -2,7 +2,7 @@ import images from "../constants/images";
 
 const Banner = () => {
   return (
-    <div className="flex bg-[#A78236] py-8 ">
+    <div className="flex bg-[#A78236] py-8 my-1 ">
       <div className="flex flex-col mx-auto text-white w-full justify-between p-4 space-y-3 md:w-4/5 lg:flex-row">
         <img src={images.ban3} alt="" className="w-full lg:w-[52%]" />
         <div className="flex flex-col space-y-4 w-full lg:w-[42%]">

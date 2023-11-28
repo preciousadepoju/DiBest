@@ -7,50 +7,52 @@ const Footer = () => {
             <div className='bg-[#A78236]'>
             <div className="footer bg-gray-100">
                     <ul className='mx-8'>
-                        <li className='head font-bold'><a href="#">Company</a></li>
-                        <li><a href="#" className='my-4'>Blog</a></li>
-                        <li><a href="#" className='my-4'>Pricing</a></li>
-                        <li><a href="#" className='my-4'>Support</a></li>
-                        <li><a href="#" className='my-4'>Contact</a></li>
-                        <li><a href="#" className='my-4'>About</a></li>
+                    <li><h3 className="font-bold">OUR SERVICES</h3></li>
+          <li><a href="">In-House Digital Marketing</a></li>
+          <li><a href="">Business Consulting</a></li>
+          <li><a href="">Strategy Development</a></li>
+          <li><a href="">Project Management</a></li>
+          <li><a href="">Press Relations</a></li>
+          <li><a href="">Our Brands</a></li>
+          <li><a href="">Partners</a></li>
+          <li><a href="">Vendors</a></li>
 
                     </ul>
-                    <ul className='ms-8'>
-                        <li className='head font-bold'><a href="#">Features </a></li>
-                        <li><a href="#" className='my-4'>Restaurant</a></li>
-                        <li><a href="#" className='my-4'>OnDemand Services</a></li>
-                        <li><a href="#" className='my-4'>Property Rental</a></li>
-                        <li><a href="#" className='my-4'>Ecommece</a></li>
-                        <li><a href="#" className='my-4'>Carribean Region</a></li>
-                        <li><a href="#" className='my-4'>Ewallet</a></li>
-                        <li><a href="#" className='my-4'>Egift</a></li>
+                    <ul className='ms-8 platform'>
+                    <li><h3 className="font-bold">PLATFORM LINK</h3></li>
+          <li><a href="">Media Releases</a></li>
+          <li><a href="">Staff</a></li>
+          <li><a href="">Affiliates</a></li>
+          <li><a href="">Press Kit</a></li>
+          <li><a href="">DiBest News</a></li>
+          <li><a href="">Community Education</a></li>
+          <li><a href="">FAQ</a></li>
+          <li><a href="">Terms of Service</a></li>
+          <li><a href="">Privacy Policy</a></li>
+          <li><a href="">Contact Us</a></li>
+          <li><a href="">Support</a></li>
+          <li ><a href="" className='flex'><span><img src="/assets/iphone-svgrepo-com.svg" className='w-7' alt="" /></span> <span><img src="/assets/phone-android-svgrepo-com (1).svg" alt="" className='w-7' /></span></a></li>
+
                     </ul>
-                    <ul className='mx-8'>
-                        <li className='head font-bold'><a href="#">Links</a></li>
-                        <li><a href="#" className='my-4'>Privacy</a></li>
-                        <li><a href="#" className='my-4'>Licenses</a></li>
-                        <li><a href="#" className='my-4'>Terms</a></li>
+                    <ul className='mx-8 noshow'>
+                    <h3 className="font-bold">MARKETPLACES</h3>
+          <li><a href="">Restaurants</a></li>
+          <li><a href="">OnDemand Services</a></li>
+          <li><a href="">Property Rentals</a></li>
+          <li><a href="">Egift</a></li>
+          <li><a href="">Ewallets</a></li>
+          <li><a href="">Caribbean Region</a></li>
+          <li><a href="">Medical Services</a></li>
                     </ul>
 
                     <div className='signup'>
-                    Sign up to get the latest releases & freebies!Less than 2 emails per month — only the good stuff. We hate spam too.
-        <br />
+                    Newsletter Subscription
                     <input type="search" className='mt-4 p-3 input' name="" placeholder='email-adress' id="" /> <button type='submit' className='bg-white p-3.5 submit mr-3 text-black'>Submit</button>
                     </div>
 
                     <div className='contactus'>
-                        <div>Contact Us:</div>
-                        <div>Have questions or suggestions? We'd love to 
-hear from you! Contact our dedicated support team at <div style={{display:'flex'}}>
-<a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30" fill="none">
-  <path d="M21.25 4.375H8.75C5 4.375 2.5 6.25 2.5 10.625V19.375C2.5 23.75 5 25.625 8.75 25.625H21.25C25 25.625 27.5 23.75 27.5 19.375V10.625C27.5 6.25 25 4.375 21.25 4.375ZM21.8375 11.9875L17.925 15.1125C17.1 15.775 16.05 16.1 15 16.1C13.95 16.1 12.8875 15.775 12.075 15.1125L8.1625 11.9875C7.7625 11.6625 7.7 11.0625 8.0125 10.6625C8.3375 10.2625 8.925 10.1875 9.325 10.5125L13.2375 13.6375C14.1875 14.4 15.8 14.4 16.75 13.6375L20.6625 10.5125C21.0625 10.1875 21.6625 10.25 21.975 10.6625C22.3 11.0625 22.2375 11.6625 21.8375 11.9875Z" fill="white"/>
-</svg></a><a href="#">
-<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30" fill="none">
-  <path d="M22.025 13.4375C21.4875 13.4375 21.0625 13 21.0625 12.475C21.0625 12.0125 20.6 11.05 19.825 10.2125C19.0625 9.4 18.225 8.925 17.525 8.925C16.9875 8.925 16.5625 8.4875 16.5625 7.9625C16.5625 7.4375 17 7 17.525 7C18.775 7 20.0875 7.675 21.2375 8.8875C22.3125 10.025 23 11.4375 23 12.4625C23 13 22.5625 13.4375 22.025 13.4375Z" fill="white"/>
-  <path d="M26.5375 13.4375C26 13.4375 25.575 13 25.575 12.475C25.575 8.0375 21.9625 4.4375 17.5375 4.4375C17 4.4375 16.575 4 16.575 3.475C16.575 2.95 17 2.5 17.525 2.5C23.025 2.5 27.5 6.975 27.5 12.475C27.5 13 27.0625 13.4375 26.5375 13.4375Z" fill="white"/>
-  <path d="M13.8125 18.6875L11.5 21C11.0125 21.4875 10.2375 21.4875 9.7375 21.0125C9.6 20.875 9.4625 20.75 9.325 20.6125C8.0375 19.3125 6.875 17.95 5.8375 16.525C4.8125 15.1 3.9875 13.675 3.3875 12.2625C2.8 10.8375 2.5 9.475 2.5 8.175C2.5 7.325 2.65 6.5125 2.95 5.7625C3.25 5 3.725 4.3 4.3875 3.675C5.1875 2.8875 6.0625 2.5 6.9875 2.5C7.3375 2.5 7.6875 2.575 8 2.725C8.325 2.875 8.6125 3.1 8.8375 3.425L11.7375 7.5125C11.9625 7.825 12.125 8.1125 12.2375 8.3875C12.35 8.65 12.4125 8.9125 12.4125 9.15C12.4125 9.45 12.325 9.75 12.15 10.0375C11.9875 10.325 11.75 10.625 11.45 10.925L10.5 11.9125C10.3625 12.05 10.3 12.2125 10.3 12.4125C10.3 12.5125 10.3125 12.6 10.3375 12.7C10.375 12.8 10.4125 12.875 10.4375 12.95C10.6625 13.3625 11.05 13.9 11.6 14.55C12.1625 15.2 12.7625 15.8625 13.4125 16.525C13.5375 16.65 13.675 16.775 13.8 16.9C14.3 17.3875 14.3125 18.1875 13.8125 18.6875Z" fill="white"/>
-  <path d="M27.4625 22.9123C27.4625 23.2623 27.4 23.6248 27.275 23.9748C27.2375 24.0748 27.2 24.1748 27.15 24.2748C26.9375 24.7248 26.6625 25.1498 26.3 25.5498C25.6875 26.2248 25.0125 26.7123 24.25 27.0248C24.2375 27.0248 24.225 27.0373 24.2125 27.0373C23.475 27.3373 22.675 27.4998 21.8125 27.4998C20.5375 27.4998 19.175 27.1998 17.7375 26.5873C16.3 25.9748 14.8625 25.1498 13.4375 24.1123C12.95 23.7498 12.4625 23.3873 12 22.9998L16.0875 18.9123C16.4375 19.1748 16.75 19.3748 17.0125 19.5123C17.075 19.5373 17.15 19.5748 17.2375 19.6123C17.3375 19.6498 17.4375 19.6623 17.55 19.6623C17.7625 19.6623 17.925 19.5873 18.0625 19.4498L19.0125 18.5123C19.325 18.1998 19.625 17.9623 19.9125 17.8123C20.2 17.6373 20.4875 17.5498 20.8 17.5498C21.0375 17.5498 21.2875 17.5998 21.5625 17.7123C21.8375 17.8248 22.125 17.9873 22.4375 18.1998L26.575 21.1373C26.9 21.3623 27.125 21.6248 27.2625 21.9373C27.3875 22.2498 27.4625 22.5623 27.4625 22.9123Z" fill="white"/>
-</svg></a></div> </div>
+                        <div>Contact Us: <span style={{textDecoration:'underline', color:'black'}} className='font-semibold text-lg'> info@dibestspot.com</span> </div>
+                        
                     </div>
             </div>
             <center>

@@ -40,8 +40,8 @@ margin-top: 5%;
 }
 
 .contactus {
-    margin-top: 20%;
-    margin-left: -25%;
+    margin-top: 15%;
+    margin-left: -22.5%;
     width: 25%;
 }
 @media (max-width:600px) {
@@ -54,9 +54,9 @@ margin-top: 5%;
         margin-top: 10%;
     }
     .signup {
-        margin-left: -100%;
+        margin-left: -95%;
         width: 70%;
-        margin-top: 50%;
+        margin-top: 62%;
     }
 
     .input {
@@ -67,5 +67,11 @@ margin-top: 5%;
     }
     .contactus {
         display: none;
+    }
+    .noshow {
+        display: none;
+    }
+    .platform {
+        margin: 0;
     }
 }

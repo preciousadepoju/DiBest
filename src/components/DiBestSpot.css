@@ -1,6 +1,6 @@
 .buttonCont {
     width: 100%;
-    height:620px;
+    height:670px;
     padding: 49px 7px 7px 8px;
     justify-content: flex-end;
     align-items: center;
@@ -40,6 +40,6 @@
     }
 
     .buttonCont {
-        height: 135vh;
+        height: 150vh;
     }
 }

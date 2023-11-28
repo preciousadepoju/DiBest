@@ -7,7 +7,7 @@
     -webkit-clip-path: circle(68.7% at 49% 31%);
     clip-path: circle(68.7% at 49% 31%);
     width: 300px;
-    height: 400px;
+    height: 500px;
     margin: 10px;
     padding: 10px;
     border-radius: 10px;
@@ -16,7 +16,8 @@
 }
 
 .cardText1 {
-    text-align:left;
+    text-align:center;
+    font-weight:500;
 }
 
 @media (max-width:800px) {

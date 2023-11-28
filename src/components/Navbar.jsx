@@ -1,11 +1,11 @@
 import React, { useState, useEffect } from 'react';
 import { Transition } from '@headlessui/react';
-import { Link } from 'react-router-dom';
+import {useNavigate} from 'react-router-dom'
 
 const Navbar = () => {
+  const navigate = useNavigate();
   const [isOpen, setIsOpen] = useState(false);
 
-  // Function to toggle menu visibility and close after a second click
   const toggleMenu = () => {
     setIsOpen(!isOpen);
 
@@ -15,6 +15,10 @@ const Navbar = () => {
       }, 1000);
     }
   };
+  const handleClick = () => {
+    navigate('/platform');
+  };
+
 
   return (
     <div className="bg-white text-black fixed w-full z-20 top-0 start-0">
@@ -24,12 +28,12 @@ const Navbar = () => {
 
         {/* Navbar Links (Hidden on Small Screens) */}
         <div className="hidden md:flex space-x-4">
-          <Link to="/" className="hover:text-gray-300">Home</Link>
-          <Link to="/features" className="hover:text-gray-300">Features</Link>
-          <Link to="/pricing" className="hover:text-gray-300">Pricing</Link>
-          <Link to="/about" className="hover:text-gray-300">About</Link>
-          <Link to="/platform" className="hover:text-gray-300">Platform Vendors</Link>
-          <Link to="/contact" className="hover:text-gray-300">Contact Us</Link>
+          <a href="/" className="hover:text-gray-300">Home</a>
+          <a href="/features" className="hover:text-gray-300">Features</a>
+          <a href="/pricing" className="hover:text-gray-300">Pricing</a>
+          <a href="/about" className="hover:text-gray-300">About</a>
+          <a href="" className="hover:text-gray-300" onClick={handleClick}>Platform Vendors</a>
+          <a href="/contact" className="hover:text-gray-300">Contact Us</a>
         </div>
 
         {/* Small Screen Menu Button */}
@@ -54,12 +58,12 @@ const Navbar = () => {
         >
           <div className="md:hidden absolute top-0 left-0 w-full h-full bg-gray-800 bg-opacity-80">
             <div className="flex flex-col items-center p-8 space-y-4">
-              <a href="/" className="text-xl hover:text-gray-300">Home</a>
-              <a href="/features" className="text-xl hover:text-gray-300">Features</a>
-              <a href="/pricing" className="text-xl hover:text-gray-300">Pricing</a>
-              <a href="/about" className="text-xl hover:text-gray-300">About</a>
-              <a href="/platform" className="text-xl hover:text-gray-300">Platform Vendors</a>
-              <a href="/contact" className="text-xl hover:text-gray-300">Contact Us</a>
+              <a href="/" className="text-xl hover:text-gray-500">Home</a>
+              <a href="/features" className="text-xl hover:text-gray-500">Features</a>
+              <a href="/pricing" className="text-xl hover:text-gray-500">Pricing</a>
+              <a href="/about" className="text-xl hover:text-gray-500">About</a>
+              <a href="/platform" className="text-xl hover:text-gray-500">Platform Vendors</a>
+              <a href="/contact" className="text-xl hover:text-gray-500">Contact Us</a>
             </div>
           </div>
         </Transition>

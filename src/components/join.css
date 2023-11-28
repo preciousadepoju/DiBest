@@ -104,6 +104,7 @@
 
     .joinTxt {
         font-size: large;
+        margin: 0;
     }
 
     .shop {
@@ -148,11 +149,12 @@
     }
 
     .missOut {
-        padding: 2%;
+        padding: 5%;
+        width: 100%;
         text-wrap: wrap;
         font-size: 16px;
         font-style: normal;
-        font-weight: 600;
+        font-weight: 900;
         line-height: normal;
     }
     
