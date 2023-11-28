@@ -27,6 +27,7 @@ function App() {
       <Pricing/>
       <Contact/>
       <About/>
+      <PlatformVendor/>
       <Footer/>
     </>
   )

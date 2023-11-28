@@ -28,7 +28,7 @@ const Search = ({ data, gp }) => {
         onChange={handleSearchChange}
       />
       <Button
-        className="rounded-2xl text-xl bg-gold font-bold text-white px-14 py-3"
+        className="rounded-2xl text-xl bg-[#A78236] font-bold text-white px-14 py-3"
         children="Search"
         //  onClick={handleSearchChange}
       />
