@@ -9,7 +9,7 @@ function Cardcarousel() {
                 <Carousel leftControl=" " rightControl=" " showIndicators={false}>
                     <div>
                         <a href="#" class="ecommerce flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow-lg md:flex-row md:max-w-xl mb-2">
-                            <img class="object-cover w-full  h-96 md:h-auto md:w-48 ecommerceImg" src="/src/assets/card 1.jfif" alt="" />
+                            <img class="object-cover w-full  h-96 md:h-auto md:w-48 ecommerceImg" src="/public/assets/card 1.jfif" alt="" />
                             <div class="flex flex-col justify-between p-4 leading-normal">
                                 <h6 class="mb-2 text-md font-bold tracking-tight text-gray-900 dark:text-black">Ecommerce</h6>
                                 <p class="mb-3 font-normal text-black">A culinary masterpiece awaits those seeking an extraordinary
@@ -27,7 +27,7 @@ function Cardcarousel() {
                     </div>
                     <div>
                         <a href="#" class="ecommerce flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow-lg md:flex-row md:max-w-xl mb-2">
-                            <img class="object-cover w-full  h-96 md:h-auto md:w-48 ecommerceImg" src="/src/assets/card 2.jfif" alt="" />
+                            <img class="object-cover w-full  h-96 md:h-auto md:w-48 ecommerceImg" src="/public/assets/card 2.jfif" alt="" />
                             <div class="flex flex-col justify-between p-4 leading-normal">
                                 <h6 class="mb-2 text-md font-bold tracking-tight text-gray-900 dark:text-black">Ewallet</h6>
                                 <p class="mb-3 font-normal text-black">A culinary masterpiece awaits those seeking an extraordinary
@@ -45,7 +45,7 @@ function Cardcarousel() {
                     </div>
                     <div>
                         <a href="#" class="ecommerce flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow-lg md:flex-row md:max-w-xl mb-2">
-                            <img class="object-cover w-full  h-96 md:h-auto md:w-48 ecommerceImg" src="/src/assets/card 4.jfif" alt="" />
+                            <img class="object-cover w-full  h-96 md:h-auto md:w-48 ecommerceImg" src="/public/assets/card 4.jfif" alt="" />
                             <div class="flex flex-col justify-between p-4 leading-normal">
                                 <h6 class="mb-2 text-md font-bold tracking-tight text-gray-900 dark:text-black">Property Rental</h6>
                                 <p class="mb-3 font-normal text-black">A culinary masterpiece awaits those seeking an extraordinary
@@ -63,7 +63,7 @@ function Cardcarousel() {
                     </div>
                     <div>
                         <a href="#" class="ecommerce flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow-lg md:flex-row md:max-w-xl mb-2">
-                            <img class="object-cover w-full  h-96 md:h-auto md:w-48 ecommerceImg" src="/src/assets/card 3.jfif" alt="" />
+                            <img class="object-cover w-full  h-96 md:h-auto md:w-48 ecommerceImg" src="/public/assets/card 3.jfif" alt="" />
                             <div class="flex flex-col justify-between p-4 leading-normal">
                                 <h6 class="mb-2 text-md font-bold tracking-tight text-gray-900 dark:text-black">Caribbean Region</h6>
                                 <p class="mb-3 font-normal text-black">A culinary masterpiece awaits those seeking an extraordinary
@@ -81,7 +81,7 @@ function Cardcarousel() {
                     </div>
                     <div>
                         <a href="#" class="ecommerce flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow-lg md:flex-row md:max-w-xl mb-2">
-                            <img class="object-cover w-full  h-96 md:h-auto md:w-48 ecommerceImg" src="/src/assets/card 5.jfif" alt="" />
+                            <img class="object-cover w-full  h-96 md:h-auto md:w-48 ecommerceImg" src="/public/assets/card 5.jfif" alt="" />
                             <div class="flex flex-col justify-between p-4 leading-normal">
                                 <h6 class="mb-2 text-md font-bold tracking-tight text-gray-900 dark:text-black">Egift</h6>
                                 <p class="mb-3 font-normal text-black">A culinary masterpiece awaits those seeking an extraordinary
