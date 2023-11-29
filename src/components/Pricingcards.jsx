@@ -13,7 +13,7 @@ const Pricingcards = () => {
         <p className="text-gray-700 text-lg cardText1">
         FREE TO JOIN <br/> Members can participate in both Auctions and Classified listing.
         </p>
-        <p className="text-gray-700 text-lg cardText1 mt-2">Get in touch with us: Presently accepting private enrollments. <span><a href="mailto:infor@dibestspot.com" style={{textDecoration:'underline'}}>infor@dibestspot.com</a></span></p>
+        <p className="text-gray-700 text-lg cardText1 mt-2">Get in touch with us: Presently accepting private enrollments. <span><a href="mailto:info@dibestspot.com" style={{textDecoration:'underline'}}>info@dibestspot.com</a></span></p>
       </div>
       
     </div>
@@ -24,7 +24,7 @@ const Pricingcards = () => {
         <p className="text-gray-700 text-lg cardText1">
          Vendors have the opportunity to join various marketplaces, including Restaurants, On-Demand Services, and Property Rentals.
         </p>
-        <p className="text-gray-700 text-lg cardText1 mt-2">Get in touch with us: Presently accepting private vendor enrollments. <br /> <span><a href="mailto:infor@dibestspot.com" style={{textDecoration:'underline'}}>infor@dibestspot.com</a></span> </p>
+        <p className="text-gray-700 text-lg cardText1 mt-2">Get in touch with us: Presently accepting private vendor enrollments. <br /> <span><a href="mailto:info@dibestspot.com" style={{textDecoration:'underline'}}>info@dibestspot.com</a></span> </p>
       </div>
      
     </div>

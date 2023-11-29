@@ -11,56 +11,59 @@ const Footer = () => {
         <div>
             <div className='footers'>
             <div className="footer bg-gray-100">
-                    <ul className='mx-8'>
-                    <li><h3 className="font-bold">ASSOCIATION</h3></li>
-          <li><a href=" https://jtpmoagency.com">Digital Marketing</a></li>
-          <li><a href="#">Business Consulting</a></li>
-          <li><a href="https://7figurestrategyadvisors.com/">Strategy Development</a></li>
-          <li><a href="https://mywarmembrace.com">Project Management</a></li>
-          <li><a href="#">PR & Media Advertising</a></li>
-          <li><a href="https://www.jtpmo.com/brands">Our Brands</a></li>
-          <li><a href="#">Partners</a></li>
-          <li><a href="#">Vendors</a></li>
-          <li><a href="#">Medical Providers</a></li>
+                   <div className="unite flex">
+                   <ul className='mx-8 platform2'>
+                    <li><h3 className="font-bold">PLATFORM SERVICES</h3></li>
+          <li><a href=" https://jtpmoagency.com">Digital Marketing</a></li><hr />
+          <li><a href="#">Business Consulting</a></li><hr />
+          <li><a href="https://7figurestrategyadvisors.com/">Strategy Development</a></li><hr />
+          <li><a href="https://mywarmembrace.com">Project Management</a></li><hr />
+          <li><a href="#">PR & Media Advertising</a></li><hr />
+          <li><a href="https://www.jtpmo.com/brands">Our Brands</a></li><hr />
+          <li><a href="#">Partners</a></li><hr />
+          <li><a href="#">Vendors</a></li><hr />
+          <li><a href="#">Medical Providers</a></li><hr />
 
                     </ul>
                     <ul className='ms-8 platform'>
                     <li><h3 className="font-bold">PLATFORM LINK</h3></li>
-          <li><a href="">Media Releases</a></li>
-          <li><a href="">Staff</a></li>
-          <li><a href="">Affiliates</a></li>
-          <li><a href="">Press Kit</a></li>
-          <li><a href="">DiBest News</a></li>
-          <li><a href="">Community Education</a></li>
-          <li><a href="">FAQ</a></li>
-          <li><a href="">Terms of Service</a></li>
-          <li><a href="">Privacy Policy</a></li>
-          <li><a href="">Contact Us</a></li>
-          <li><a href="">Support</a></li>
-          <li><a href="">Blog</a></li>
-          <li ><a href="" className='flex'><span><img src="/assets/iphone-svgrepo-com.svg" className='w-7' alt="" /></span> <span><img src="/assets/phone-android-svgrepo-com (1).svg" alt="" className='w-7' /></span></a></li>
+          <li><a href="">Media Releases</a></li><hr />
+          <li><a href="">Staff</a></li><hr />
+          <li><a href="">Affiliates</a></li><hr />
+          <li><a href="">Press Kit</a></li><hr />
+          <li><a href="">DiBest News</a></li><hr />
+          <li><a href="">Community Education</a></li><hr />
+          <li><a href="">FAQ</a></li><hr />
+          <li><a href="">Terms of Service</a></li><hr />
+          <li><a href="">Privacy Policy</a></li><hr />
+          <li><a href="">Contact Us</a></li><hr />
+          <li><a href="">Support</a></li><hr />
+          <li><a href="">Blog</a></li><hr />
+          <li ><a href="" className='flex'><span><img src="/assets/google-play-download-android-app-logo-svgrepo-com.svg" className='imgs' alt="" /></span> <span><img src="/assets/download-on-the-app-store-apple-logo-svgrepo-com.svg" alt="" className='imgs1' /></span></a></li>
 
                     </ul>
+                   </div>
                     <ul className='mx-8 noshow'>
                     <h3 className="font-bold">MARKETPLACES</h3>
-          <li><a href="" onclick={resTaurant}>Restaurants</a></li>
-          <li><a href="">OnDemand Services</a></li>
-          <li><a href="">Property Rentals</a></li>
-          <li><a href="">Egift</a></li>
-          <li><a href="">Ewallets</a></li>
-          <li><a href="">Caribbean Region</a></li>
-          <li><a href="">Medical Services</a></li>
+          <li><a href="" onclick={resTaurant}>Restaurants</a></li><hr />
+          <li><a href="">OnDemand Services</a></li><hr />
+          <li><a href="">Property Rentals</a></li><hr />
+          <li><a href="">Egift</a></li><hr />
+          <li><a href="">Ewallets</a></li><hr />
+          <li><a href="">Caribbean Region</a></li><hr />
+          <li><a href="">Medical Services</a></li><hr />
+          <div className='signup my-5 font-bold'>
+                    Newsletter Subscription <span><input type="email" className='mt-4 p-3 input' name="" placeholder='email-adress' id="" /> <a href="mailto:info@dibestspot.com"><button type='submit' className='bg-white p-3.5 submit mr-3 text-black'>Submit</button></a>
+                  </span>
+                      </div>
+            <div>
+              <span className='font-bold text-base contacty'><span>Contact Us:</span> <a href="mailto:info@dibestspot.com" className='text-gray-800 underline text-base font-bold info'>info@dibestspot.com</a></span>
+            </div>
                     </ul>
 
-                    <div className='signup'>
-                    Newsletter Subscription
-                    <input type="search" className='mt-4 p-3 input' name="" placeholder='email-adress' id="" /> <button type='submit' className='bg-white p-3.5 submit mr-3 text-black'>Submit</button>
-                    </div>
+                    
 
-                    <div className='contactus'>
-                        <div>Contact Us: <span style={{textDecoration:'underline', color:'black'}} className='font-semibold text-lg'> info@dibestspot.com</span> </div>
-                        
-                    </div>
+                    
             </div>
             <center>
             <small style={{display:'flex'}} className='text-white copy'><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
