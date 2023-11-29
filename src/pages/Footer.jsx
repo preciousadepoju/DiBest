@@ -4,7 +4,7 @@ import {useNavigate} from 'react-router-dom'
 
 const Footer = () => {
       const navigate = useNavigate
-      const restaurant = () => {
+      const resTaurant = () => {
         navigate('/platform');
       }
        return (
@@ -43,7 +43,7 @@ const Footer = () => {
                     </ul>
                     <ul className='mx-8 noshow'>
                     <h3 className="font-bold">MARKETPLACES</h3>
-          <li><a href="" onclick={restaurant}>Restaurants</a></li>
+          <li><a href="" onclick={resTaurant}>Restaurants</a></li>
           <li><a href="">OnDemand Services</a></li>
           <li><a href="">Property Rentals</a></li>
           <li><a href="">Egift</a></li>

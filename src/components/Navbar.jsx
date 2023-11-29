@@ -29,11 +29,11 @@ const Navbar = () => {
         {/* Navbar Links (Hidden on Small Screens) */}
         <div className="hidden md:flex space-x-4">
           <a href="/" className="hover:text-gray-300">Home</a>
-          <a href="/features" className="hover:text-gray-300">Features</a>
-          <a href="/pricing" className="hover:text-gray-300">Pricing</a>
-          <a href="/about" className="hover:text-gray-300">About</a>
-          <a href="" className="hover:text-gray-300" onClick={handleClick}>Platform Vendors</a>
-          <a href="/contact" className="hover:text-gray-300">Contact Us</a>
+          <a href="/features" className="hover:text-gray-800">Features</a>
+          <a href="/pricing" className="hover:text-gray-800">Pricing</a>
+          <a href="/about" className="hover:text-gray-800">About</a>
+          <a href="" className="hover:text-gray-800" onClick={handleClick}>Platform Vendors</a>
+          <a href="/contact" className="hover:text-gray-800">Contact Us</a>
         </div>
 
         {/* Small Screen Menu Button */}
