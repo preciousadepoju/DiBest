@@ -13,8 +13,8 @@ const Home = () => {
       <Carousels/>
       <center>
       <div className='startnow absolute'>
-      <h1 className=' font-bold text-[#A78236] welcome' >Welcome to DiBest Spot</h1>
-      <h3 className='text-[#A78236] text-2xl font-medium explore'>Explore, Sign-up and Connect in the Cayman Islands and the Caribbean </h3>
+      <h1 className=' font-bold text-white welcome' >Welcome to DiBest Spot</h1>
+      <h3 className='text-white text-2xl font-medium explore'>Explore, Sign-up and Connect in the Cayman Islands and the Caribbean </h3>
       <button type="button" class="startbtn focus:outline-none text-white bg-[#A78236] hover:bg-yellow-600 focus:ring-yellow-300 font-medium rounded-lg text-sm px-5 py-2 h-10 mt-1.5 ms-2  ">Start Now</button>
       </div>
 

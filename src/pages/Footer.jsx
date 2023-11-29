@@ -1,21 +1,27 @@
 import React from 'react'
 import './Footer.css'
+import {useNavigate} from 'react-router-dom'
 
 const Footer = () => {
+      const navigate = useNavigate
+      const restaurant = () => {
+        navigate('/platform');
+      }
        return (
         <div>
             <div className='bg-[#A78236]'>
             <div className="footer bg-gray-100">
                     <ul className='mx-8'>
-                    <li><h3 className="font-bold">OUR SERVICES</h3></li>
-          <li><a href="">In-House Digital Marketing</a></li>
-          <li><a href="">Business Consulting</a></li>
-          <li><a href="">Strategy Development</a></li>
-          <li><a href="">Project Management</a></li>
-          <li><a href="">Press Relations</a></li>
-          <li><a href="">Our Brands</a></li>
-          <li><a href="">Partners</a></li>
-          <li><a href="">Vendors</a></li>
+                    <li><h3 className="font-bold">ASSOCIATION</h3></li>
+          <li><a href=" https://jtpmoagency.com">Digital Marketing</a></li>
+          <li><a href="#">Business Consulting</a></li>
+          <li><a href="https://7figurestrategyadvisors.com/">Strategy Development</a></li>
+          <li><a href="https://mywarmembrace.com">Project Management</a></li>
+          <li><a href="#">PR & Media Advertising</a></li>
+          <li><a href="https://www.jtpmo.com/brands">Our Brands</a></li>
+          <li><a href="#">Partners</a></li>
+          <li><a href="#">Vendors</a></li>
+          <li><a href="#">Medical Providers</a></li>
 
                     </ul>
                     <ul className='ms-8 platform'>
@@ -37,7 +43,7 @@ const Footer = () => {
                     </ul>
                     <ul className='mx-8 noshow'>
                     <h3 className="font-bold">MARKETPLACES</h3>
-          <li><a href="">Restaurants</a></li>
+          <li><a href="" onclick={restaurant}>Restaurants</a></li>
           <li><a href="">OnDemand Services</a></li>
           <li><a href="">Property Rentals</a></li>
           <li><a href="">Egift</a></li>
