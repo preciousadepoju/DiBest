@@ -8,6 +8,7 @@ import Contact from './pages/Contact'
 import Footer from './pages/Footer'
 import {Route, Routes} from 'react-router-dom'
 import PlatformVendor from './pages/PlatformVendor'
+import WhatsAppButton from './components/WhatsappButton'
 
 function App() {
 
@@ -22,6 +23,7 @@ function App() {
       <Route path='/platform' element={<PlatformVendor/>}/>
     </Routes>
       <Navbar/>
+      <WhatsAppButton/>
       {/* <Home/> */}
       {/* <Features/> */}
       {/* <Pricing/> */}

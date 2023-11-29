@@ -31,6 +31,7 @@ const Footer = () => {
           <li><a href="">Privacy Policy</a></li>
           <li><a href="">Contact Us</a></li>
           <li><a href="">Support</a></li>
+          <li><a href="">Blog</a></li>
           <li ><a href="" className='flex'><span><img src="/assets/iphone-svgrepo-com.svg" className='w-7' alt="" /></span> <span><img src="/assets/phone-android-svgrepo-com (1).svg" alt="" className='w-7' /></span></a></li>
 
                     </ul>

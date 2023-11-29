@@ -1,0 +1,14 @@
+.whatsapp {
+    width: 50%;
+}
+.cover {
+    margin-left: 95%;
+}
+@media (max-width:800px) {
+    .whatsapp {
+        width: 80%;
+    }
+    .cover {
+        margin-left: 90%;
+    }
+}

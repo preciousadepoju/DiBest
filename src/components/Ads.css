@@ -2,7 +2,7 @@
     display: flex;
 }
 .ads{
-    padding-left: 20%;
+    /* padding-left: 20%; */
     justify-content: center;
 }
 .adHead1 {
@@ -10,12 +10,79 @@
     margin-top: 5%;
 }
 .adBlack {
-    background-color: black;
-    width: 20%;
-    height: 15vh;
+    /* background-color: black; */
+    width: 60%;
+    height: auto;
+    margin-left: -10%;
+
 }
 .adWhite {
-    background-color: rgb(243, 243, 243);
-    width: 20%;
-    height: 15vh;
+    /* background-color: rgb(243, 243, 243); */
+    width: 60%;
+    height: auto;
+    margin-left: -10%;
+
 }
+
+.images {
+    width:60%;
+}
+.images1 {
+    width: 60%;
+    height: 43.1vh;
+}
+
+
+.marquee-container {
+    overflow: hidden;
+    /* white-space: nowrap; */
+  }
+
+  
+  .marquee {
+    display: flex;
+    animation: marquee 25s linear infinite; /* Adjust the duration as needed */
+  }
+  
+  @keyframes marquee {
+    from {
+      transform: translateX(100%);
+    }
+    to {
+      transform: translateX(-100%);
+    }
+  }
+
+  @media (max-width:800px) {
+    .images {
+      width:400px;
+  }
+  .images1 {
+      width: 400px;
+      height: 44.5vh;
+  }
+
+  .adBlack {
+      width: 400px;
+      height: auto;
+      margin-top: 2%;
+  }
+  .adWhite {
+      width: 400px;
+      height: auto;
+      margin-top: 2%;
+  }
+  .adHead {
+      display: block;
+  }
+  .adHead1 {
+      display: flex;
+      margin-top: 5%;
+  }
+  
+  
+ 
+
+  
+  }
+  
