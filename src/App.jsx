@@ -22,7 +22,7 @@ function App() {
       <Route path='/contact' element={<Contact/>}/>
       <Route path='/platform' element={<PlatformVendor/>}/>
     </Routes>
-      <Navbar/>
+      {/* <Navbar/> */}
       <WhatsAppButton/>
       {/* <Home/> */}
       {/* <Features/> */}

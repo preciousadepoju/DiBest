@@ -9,7 +9,7 @@ import Footer  from './Footer'
 
 const Home = () => {
   return (
-    <div>
+    <div className='body'>
       <Carousels/>
       <center>
       <div className='startnow absolute'>

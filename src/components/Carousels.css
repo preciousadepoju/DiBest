@@ -1,8 +1,14 @@
-@media (max-width:800px) {
-    .imges {
-        width: 100%;
-    }
-    .carousel {
-        margin-top: -10%;
-    }
+@media (max-width:576px) {
+        .carousell {
+                box-sizing: border-box;
+                
+        }
 }
+
+@media (max-width:425px) {
+        .carousell {
+                box-sizing: border-box;
+                width: 10%;
+        }
+}
+
