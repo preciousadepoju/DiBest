@@ -9,7 +9,7 @@ const Footer = () => {
       }
        return (
         <div>
-            <div className='bg-[#A78236]'>
+            <div className='footers'>
             <div className="footer bg-gray-100">
                     <ul className='mx-8'>
                     <li><h3 className="font-bold">ASSOCIATION</h3></li>
