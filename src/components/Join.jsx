@@ -37,7 +37,7 @@ const Join = () => {
             <div className="w-full lg:w-4/5">
               <a
                 href="#"
-                className="shop1 flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow-lg md:flex-row md:w-[60%]"
+                className="shop1 flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow-lg md:flex-row md:w-[80%]"
               >
                 <img
                   className="object-cover w-full rounded-t-lg h-96 md:h-auto md:w-48 md:rounded-none md:rounded-s-lg shopimg"
@@ -57,13 +57,13 @@ const Join = () => {
               </a>
             </div>
 
-            <div className="w-full lg:w-4/5">
+            <div className=" lg:w-4/5">
               <a
                 href="#"
-                className="shop2 flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow-lg md:flex-row md:w-[60%]"
+                className="shop2 flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow-lg md:flex-row md:w-[100%]"
               >
                 <img
-                  className="object-cover w-80 rounded-t-lg h-96 md:h-auto md:w-38 md:rounded-none md:rounded-s-lg shopimg1 w-full"
+                  className="object-cover w-full rounded-t-lg h-96 md:h-auto md:w-48 md:rounded-none md:rounded-s-lg shopimg1"
                   src="/assets/group 3.jfif"
                   alt=""
                 />
