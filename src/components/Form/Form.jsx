@@ -1,4 +1,4 @@
-
+import React from 'react'
 
 const Form = ({ show }) => {
     console.log(show);

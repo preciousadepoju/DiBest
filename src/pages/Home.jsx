@@ -5,7 +5,7 @@ const Home = () => {
   return (
     <>
       <Carousels />
-      <div className="flex justify-center absolute top-[175px] left-[20%]">
+      <div className="flex justify-center absolute top-[175px] left-[20%] ">
         <div className="flex flex-col items-center space-y-4">
           <h1 className=" font-bold text-white welcome">
             Welcome to DiBest Spot
