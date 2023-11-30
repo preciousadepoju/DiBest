@@ -1,6 +1,6 @@
 .pricingcard {
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
 }
 
 .card {
@@ -8,7 +8,7 @@
     clip-path: circle(68.7% at 49% 31%);
     width: 300px;
     height: 500px;
-    margin: 10px;
+    /* margin: 10px; */
     padding: 10px;
     border-radius: 10px;
     background-color: rgb(255, 255, 255);
@@ -22,9 +22,9 @@
 
 @media (max-width:800px) {
     .pricingcard {
-        display: block;
+        /* display: block; */
     }
     .card {
-        margin-left:14%;
+        /* margin-left:14%; */
     }
 }

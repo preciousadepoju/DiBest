@@ -3,7 +3,7 @@ import Button from "../components/Button";
 
 const HeroSection = () => {
   return (
-    <div className="flex flex-col justify-between mx-auto mt-20 w-4/5 md:flex-row">
+    <div id="platform" className="flex flex-col justify-between mx-auto mt-20 w-4/5 md:flex-row">
       <div className="flex flex-col w-full space-y-6 lg:w-[45%] text-center items-center">
         <h1 className="font-bold text-5xl">Vendors Enrollment</h1>
         <p>

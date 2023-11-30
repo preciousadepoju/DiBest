@@ -1,179 +1,180 @@
-.startnow {
-    margin-top :-320px;
-    margin-left:16%;
-}
+/* .startnow {
+  margin-top: -320px;
+  margin-left: 16%;
+} */
 .whydibest {
-    width: 960px;
-    height: 245px;
-    flex-shrink: 0;
-    border-radius: 10px;
-    background: #A78236;
-    position: absolute;
-    margin-top: -10%;
-    display: flex;
-    flex-direction: row;
-    margin-left: 15%;
+  /* width: 960px; */
+  /* height: 245px; */
+  /* flex-shrink: 0; */
+  /* border-radius: 10px; */
+  background: #a78236;
+  /* position: absolute; */
+  /* margin-top: -10%; */
+  display: flex;
+  flex-direction: row;
+  /* margin-left: 15%; */
 }
 .whyText {
-    color: #FFF;
-font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-font-size: 32px;
-font-style: normal;
-width: 40%;
-font-weight: 600;
-line-height: normal;
+  color: #fff;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 32px;
+  font-style: normal;
+  width: 40%;
+  font-weight: 600;
+  line-height: normal;
 }
 
-
-.cardDiv {
-    display: flex;
-    gap: 8px;
-}
+/* .cardDiv {
+  display: flex;
+  gap: 8px;
+} */
 
 .whyCard {
-    width: 167px;
-    height: 178px;
-    padding: 5%;
-    flex-shrink: 0;
-    margin: auto;
-    border-radius: 8px;
-    background: #FFF;
+  /* width: 167px; */
+  /* height: 178px; */
+  /* padding: 5%; */
+  /* flex-shrink: 0; */
+  /* margin: auto; */
+  border-radius: 8px;
+  background: #fff;
 }
 
 .whyCardt {
-    color: #0D0D0D;
-text-align: center;
-font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-font-size: 16px;
-font-style: normal;
-font-weight: 500;
-line-height: normal;
+  color: #0d0d0d;
+  text-align: center;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  /* font-size: 16px; */
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
 }
 
 .whyCardf {
-    color: #000;
-text-align: center;
-font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-font-size: 14px;
-font-style: normal;
-font-weight: 600;
-line-height: normal;
-/* text-align: center; */
+  color: #000;
+  text-align: center;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  /* font-size: 14px; */
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  /* text-align: center; */
 }
 .explore {
-    font-weight:800;
-    text-shadow:1px 1px rgb(49, 49, 47);
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 800;
+  text-shadow: 1px 1px rgb(49, 49, 47);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 .welcome {
-    text-shadow:1px 1px rgb(49, 49, 47);
-    font-size: 4em;
-    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  text-shadow: 1px 1px rgb(49, 49, 47);
+  font-size: 4em;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
-
 
 @media (max-width: 576px) {
-    
-    .buttonCont {
-        padding: 7px 8px;
-    }
+  .buttonCont {
+    padding: 7px 8px;
+  }
 
-    .welcome {
-        font-size:170%;
-        margin-left: -15%;
-        margin-top: 35%;
-    }
+  .welcome {
+    font-size: 170%;
+    margin-left: -15%;
+    margin-top: 35%;
+  }
 
-    .explore {
-        margin-left: -15%;
-        font-size: 100%;
-        /* margin-top: ; */
-        padding: 4%;
-        text-align: center;
-    }
+  .explore {
+    margin-left: -15%;
+    font-size: 100%;
+    /* margin-top: ; */
+    padding: 4%;
+    text-align: center;
+  }
 
-    .startbtn {
-        margin-left: -20%;
-        margin-top: -20%;
-    }
+  .startbtn {
+    margin-left: -20%;
+    margin-top: -20%;
+  }
 
-    .whydibest {
-        margin-left: 0%;
-        width: 100%;
-        height: 75vh;
-        margin-top: -12%;
-        display: block;
-        padding: 1%;
-    }
-    
-    .whyText {
-        font-size: 1em;
-        padding: 0;
-    }
-    .whyCard {
-        height: 29vh;
-        width: 70%;
-        margin-top: 2px;
-    }
+  .whydibest {
+    margin-left: 0%;
+    width: 100%;
+    height: 75vh;
+    margin-top: -12%;
+    display: block;
+    padding: 1%;
+  }
 
-    .whyCardf {
-        font-size: large;
-    }
-    .cardDiv {
-        display: block;
-        margin-top: 15px;
-    }
-    
+  .whyText {
+    font-size: 1em;
+    padding: 0;
+  }
+  .whyCard {
+    height: 29vh;
+    width: 70%;
+    margin-top: 2px;
+  }
+
+  .whyCardf {
+    font-size: large;
+  }
+  .cardDiv {
+    display: block;
+    margin-top: 15px;
+  }
 }
 
-@media (max-width:425px) {
-    .buttonCont {
-        padding: 7px 8px;
-    }
+@media (max-width: 425px) {
+  .buttonCont {
+    padding: 7px 8px;
+  }
 
-    .welcome {
-        font-size:170%;
-        margin-left: -15%;
-        margin-top: 35%;
-    }
+  .welcome {
+    font-size: 170%;
+    margin-left: -15%;
+    margin-top: 35%;
+  }
 
-    .explore {
-        margin-left: -15%;
-        font-size: 100%;
-        /* margin-top: ; */
-        padding: 4%;
-        text-align: center;
-    }
+  .explore {
+    margin-left: -15%;
+    font-size: 100%;
+    /* margin-top: ; */
+    padding: 4%;
+    text-align: center;
+  }
 
-    .startbtn {
-        margin-left: -20%;
-        margin-top: -20%;
-    }
+  .startbtn {
+    margin-left: -20%;
+    margin-top: -20%;
+  }
 
-    .whydibest {
-        margin-left: 0%;
-        width: 100%;
-        height: 75vh;
-        margin-top: -12%;
-        display: block;
-        padding: 1%;
-    }
-    
-    .whyText {
-        font-size: 1em;
-        padding: 0;
-    }
-    .whyCard {
-        height: 29vh;
-        width: 70%;
-        margin-top: 2px;
-    }
+  .whydibest {
+    margin-left: 0%;
+    width: 100%;
+    height: 75vh;
+    margin-top: -12%;
+    display: block;
+    padding: 1%;
+  }
 
-    .whyCardf {
-        font-size: large;
-    }
-    .cardDiv {
-        display: block;
-        margin-top: 15px;
-    }
+  .whyText {
+    font-size: 1em;
+    padding: 0;
+  }
+  .whyCard {
+    height: 29vh;
+    width: 70%;
+    margin-top: 2px;
+  }
+
+  .whyCardf {
+    font-size: large;
+  }
+  .cardDiv {
+    display: block;
+    margin-top: 15px;
+  }
 }

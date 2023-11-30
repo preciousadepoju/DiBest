@@ -57,6 +57,7 @@
 .input {
     background-color: transparent;
     border: thin solid ;
+    border-radius: 10px;
 }
 
 .submit {

@@ -1,4 +1,3 @@
-import React from 'react'
 import DiBestSpot from '../components/DiBestSpot'
 import Cardcarousel from '../components/Cardcarousel'
 
