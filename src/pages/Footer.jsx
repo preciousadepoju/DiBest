@@ -10,7 +10,7 @@ const Footer = () => {
   return (
     <div>
       <div className="footers">
-        <div className="footer bg-gray-100">
+        <div className="footer">
           <div className="unite flex">
             <ul className="mx-8 platform2">
               <li>
