@@ -6,16 +6,15 @@ import About from "./pages/About";
 import Footer from "./pages/Footer";
 import PlatformVendor from "./pages/PlatformVendor";
 import WhatsAppButton from "./components/WhatsappButton";
-import { useState } from "react";
-import Form from "./components/Form/Form";
+// import { useState } from "react";
 
 
 function App() {
-  const [shhow,setShhow] = useState(false)
-  const getShow = (show) => {
-    console.log(show);
-  setShhow(show)
-}
+  // const [shhow,setShhow] = useState(false)
+//   const getShow = (show) => {
+//     console.log(show);
+//   setShhow(show)
+// }
 
   return (
     <>
@@ -27,7 +26,7 @@ function App() {
       <Route path="/contact" element={<Contact />} />
       <Route path="/platform" element={<PlatformVendor />} />
       </Routes> */}
-      <Navbar getShow={getShow} />
+      <Navbar/>
       <Home />
       <Features />
       <Pricing />
@@ -35,7 +34,6 @@ function App() {
       <PlatformVendor />
       <WhatsAppButton />
       <Footer />
-      <Form shhow={shhow} />
     </>
   );
 }

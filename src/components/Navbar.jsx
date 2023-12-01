@@ -1,10 +1,11 @@
 import { useState, useEffect } from "react";
 import { Transition } from "@headlessui/react";
+import { Link } from "react-router-dom";
 
 
 const Navbar = ({getShow }) => {
   const [isOpen, setIsOpen] = useState(false);
-  const [show, setShow] = useState(false);
+  // const [show, setShow] = useState(false);
 
   const toggleMenu = () => {
     setIsOpen(!isOpen);
@@ -15,14 +16,7 @@ const Navbar = ({getShow }) => {
       }, 1000);
     }
   };
-  const handleClick = () => {
-    // navigate('/platform');
-  };
-  const onBtnClick = () => {
-    setShow(true);
-  };
-
-  getShow(show);
+  
 
   return (
     <>
@@ -47,7 +41,7 @@ const Navbar = ({getShow }) => {
             <a
               href="#platform"
               className="hover:text-gray-800"
-              onClick={handleClick}
+              // onClick={handleClick}
             >
               Platform Vendors
             </a>
@@ -112,10 +106,9 @@ const Navbar = ({getShow }) => {
               <a href=" panel.dibestspot.com/login">Login</a>
             </button>
             <button
-              onClick={onBtnClick}
               className="text-white px-3 py-1 bg-[#28285B] rounded-md hover:bg-green-600 focus:outline-none"
             >
-              Enroll as Vendor
+              <Link to="/Form">Enroll as a vendor</Link>
             </button>
           </div>
         </nav>
